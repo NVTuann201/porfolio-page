@@ -5,6 +5,7 @@ const maxX = window.innerWidth - 200;
 const maxY = window.innerHeight - 200;
 const minX = 100;
 const minY = 100;
+
 noButton.addEventListener("mouseover", (event) => {
   const randomX = Math.floor(Math.random() * (maxX - minX + 1)) + minX;
   const randomY = Math.floor(Math.random() * (maxY - minY + 1)) + minY;
