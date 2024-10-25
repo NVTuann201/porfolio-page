@@ -166,3 +166,35 @@ html {
 .gallery-item:nth-last-child(1) ~ .gallery-item {
     display: none;
 }
+
+/* Question Section */
+.question-section {
+    text-align: center;
+    padding: 2rem;
+}
+
+.question-buttons {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+}
+
+#yes-button, #no-button {
+    padding: 1rem 2rem;
+    font-size: 1.2rem;
+    cursor: pointer;
+    border: none;
+    border-radius: 8px;
+    color: #fff;
+    background-color: #333;
+    transition: transform 0.3s ease, left 0.3s ease, top 0.3s ease;
+    z-index: 10;
+}
+
+#yes-button:hover {
+    background-color: #5cb85c;
+}
+
+#no-button:hover {
+    background-color: #d9534f;
+}
